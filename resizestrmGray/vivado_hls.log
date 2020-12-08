@@ -1,0 +1,21 @@
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'iti' on host 'iti-VirtualBox' (Linux_x86_64 version 5.4.0-42-generic) on Sat Nov 21 20:15:08 EST 2020
+INFO: [HLS 200-10] On os Ubuntu 18.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/resizestrmGray'
+Sourcing Tcl script '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/resizestrmGray/resize.prj/sol1/export.tcl'
+INFO: [HLS 200-10] Opening project '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/resizestrmGray/resize.prj'.
+INFO: [HLS 200-10] Opening solution '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/resizestrmGray/resize.prj/sol1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 3.3ns.
+INFO: [HLS 200-10] Setting target device to 'xczu9eg-ffvb1156-2-i'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.1.1 (64-bit)
+  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+  **** IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sat Nov 21 20:15:23 2020...
