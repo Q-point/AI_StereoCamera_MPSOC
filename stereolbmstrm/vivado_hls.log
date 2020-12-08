@@ -1,0 +1,871 @@
+INFO: [HLS 200-10] Running '/tools/Xilinx/Vivado/2020.1/bin/unwrapped/lnx64.o/vivado_hls'
+INFO: [HLS 200-10] For user 'iti' on host 'iti-VirtualBox' (Linux_x86_64 version 5.4.0-42-generic) on Sat Dec 05 15:50:50 EST 2020
+INFO: [HLS 200-10] On os Ubuntu 18.04.3 LTS
+INFO: [HLS 200-10] In directory '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm'
+Sourcing Tcl script '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/export.tcl'
+INFO: [HLS 200-10] Opening project '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj'.
+INFO: [HLS 200-10] Opening solution '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1'.
+INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
+INFO: [HLS 200-10] Setting target device to 'xczu3eg-sbva484-1-e'
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
+
+****** Vivado v2020.1.1 (64-bit)
+  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+  **** IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_ippack.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  5 15:51:07 2020...
+INFO: [IMPL 213-8] Starting RTL evaluation using Vivado ...
+
+****** Vivado v2020.1.1 (64-bit)
+  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+  **** IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source run_vivadosyn.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2116.582 ; gain = 0.000 ; free physical = 2821 ; free virtual = 9348
+Wrote  : </home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/bd_0.bd> 
+Slave segment '/hls_inst/s_axi_AXILiteS/Reg' is being assigned into address space '/s_axi_AXILiteS' at <0x0000_0000 [ 64K ]>.
+INFO: [IP_Flow 19-5627] Changing parameter ADDR_WIDTH on bus interface /s_axi_AXILiteS from 5 to 16 due to existing assignment(s) on address space /s_axi_AXILiteS.
+Wrote  : </home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/bd_0.bd> 
+VHDL Output written to : /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/synth/bd_0.v
+VHDL Output written to : /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/sim/bd_0.v
+VHDL Output written to : /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/hdl/bd_0_wrapper.v
+Using BD top: bd_0_wrapper
+INFO: [BD 41-1662] The design 'bd_0.bd' is already validated. Therefore parameter propagation will not be re-run.
+VHDL Output written to : /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/synth/bd_0.v
+VHDL Output written to : /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/sim/bd_0.v
+VHDL Output written to : /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/hdl/bd_0_wrapper.v
+INFO: [BD 41-1029] Generation completed for the IP Integrator block hls_inst .
+Exporting to file /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/hw_handoff/bd_0.hwh
+Generated Block Design Tcl file /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/hw_handoff/bd_0_bd.tcl
+Generated Hardware Definition File /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/synth/bd_0.hwdef
+[Sat Dec  5 15:51:39 2020] Launched bd_0_hls_inst_0_synth_1...
+Run output will be captured here: /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.runs/bd_0_hls_inst_0_synth_1/runme.log
+[Sat Dec  5 15:51:39 2020] Launched synth_1...
+Run output will be captured here: /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.runs/synth_1/runme.log
+[Sat Dec  5 15:51:39 2020] Waiting for synth_1 to finish...
+
+*** Running vivado
+    with args -log bd_0_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source bd_0_wrapper.tcl
+
+
+****** Vivado v2020.1.1 (64-bit)
+  **** SW Build 2960000 on Wed Aug  5 22:57:21 MDT 2020
+  **** IP Build 2956692 on Thu Aug  6 01:41:30 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source bd_0_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2020.1/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 2115.551 ; gain = 0.000 ; free physical = 2467 ; free virtual = 7824
+Command: synth_design -top bd_0_wrapper -part xczu3eg-sbva484-1-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu3eg'
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 7976
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2456.887 ; gain = 5.934 ; free physical = 1440 ; free virtual = 6893
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'bd_0_wrapper' [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/hdl/bd_0_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'bd_0' [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/synth/bd_0.v:13]
+INFO: [Synth 8-6157] synthesizing module 'bd_0_hls_inst_0' [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.runs/synth_1/.Xil/Vivado-7923-iti-VirtualBox/realtime/bd_0_hls_inst_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0_hls_inst_0' (1#1) [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.runs/synth_1/.Xil/Vivado-7923-iti-VirtualBox/realtime/bd_0_hls_inst_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0' (2#1) [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/synth/bd_0.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'bd_0_wrapper' (3#1) [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/hdl/bd_0_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2496.824 ; gain = 45.871 ; free physical = 1476 ; free virtual = 6930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2512.668 ; gain = 61.715 ; free physical = 1471 ; free virtual = 6925
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 2512.668 ; gain = 61.715 ; free physical = 1471 ; free virtual = 6925
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00 . Memory (MB): peak = 2512.668 ; gain = 0.000 ; free physical = 1464 ; free virtual = 6918
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Finished Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0/bd_0_hls_inst_0_in_context.xdc] for cell 'bd_0_i/hls_inst'
+Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/stereolbm_accel.xdc]
+create_clock: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2584.473 ; gain = 0.000 ; free physical = 1383 ; free virtual = 6836
+Finished Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/stereolbm_accel.xdc]
+Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2584.473 ; gain = 0.000 ; free physical = 1383 ; free virtual = 6836
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.04 ; elapsed = 00:00:00.04 . Memory (MB): peak = 2584.473 ; gain = 0.000 ; free physical = 1383 ; free virtual = 6836
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 2584.473 ; gain = 133.520 ; free physical = 1449 ; free virtual = 6903
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu3eg-sbva484-1-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 2584.473 ; gain = 133.520 ; free physical = 1452 ; free virtual = 6907
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for bd_0_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for bd_0_i/hls_inst. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 2584.473 ; gain = 133.520 ; free physical = 1452 ; free virtual = 6907
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:34 . Memory (MB): peak = 2584.473 ; gain = 133.520 ; free physical = 1452 ; free virtual = 6906
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 360 (col length:72)
+BRAMs: 432 (col length: RAMB18 72 RAMB36 36)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:35 . Memory (MB): peak = 2584.473 ; gain = 133.520 ; free physical = 1441 ; free virtual = 6898
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:03 ; elapsed = 00:01:30 . Memory (MB): peak = 3076.855 ; gain = 625.902 ; free physical = 849 ; free virtual = 6305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:03 ; elapsed = 00:01:31 . Memory (MB): peak = 3076.855 ; gain = 625.902 ; free physical = 849 ; free virtual = 6305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:31 . Memory (MB): peak = 3095.887 ; gain = 644.934 ; free physical = 848 ; free virtual = 6304
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.824 ; gain = 650.871 ; free physical = 847 ; free virtual = 6303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.824 ; gain = 650.871 ; free physical = 847 ; free virtual = 6303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.824 ; gain = 650.871 ; free physical = 847 ; free virtual = 6303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.824 ; gain = 650.871 ; free physical = 847 ; free virtual = 6303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.824 ; gain = 650.871 ; free physical = 847 ; free virtual = 6303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.824 ; gain = 650.871 ; free physical = 847 ; free virtual = 6303
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+----------------+----------+
+|      |BlackBox name   |Instances |
++------+----------------+----------+
+|1     |bd_0_hls_inst_0 |         1|
++------+----------------+----------+
+
+Report Cell Usage: 
++------+--------------+------+
+|      |Cell          |Count |
++------+--------------+------+
+|1     |bd_0_hls_inst |     1|
++------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.824 ; gain = 650.871 ; free physical = 847 ; free virtual = 6303
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:57 ; elapsed = 00:01:22 . Memory (MB): peak = 3101.824 ; gain = 579.066 ; free physical = 884 ; free virtual = 6340
+Synthesis Optimization Complete : Time (s): cpu = 00:01:10 ; elapsed = 00:01:38 . Memory (MB): peak = 3101.832 ; gain = 650.871 ; free physical = 884 ; free virtual = 6340
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 3101.832 ; gain = 0.000 ; free physical = 878 ; free virtual = 6334
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3127.605 ; gain = 0.000 ; free physical = 893 ; free virtual = 6349
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:29 ; elapsed = 00:02:04 . Memory (MB): peak = 3127.605 ; gain = 1012.055 ; free physical = 1025 ; free virtual = 6482
+INFO: [Common 17-1381] The checkpoint '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.runs/synth_1/bd_0_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file bd_0_wrapper_utilization_synth.rpt -pb bd_0_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  5 16:20:48 2020...
+[Sat Dec  5 16:20:52 2020] synth_1 finished
+wait_on_run: Time (s): cpu = 00:27:38 ; elapsed = 00:29:12 . Memory (MB): peak = 2444.629 ; gain = 0.000 ; free physical = 2670 ; free virtual = 8122
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xczu3eg-sbva484-1-e
+INFO: [Device 21-403] Loading part xczu3eg-sbva484-1-e
+INFO: [Project 1-454] Reading design checkpoint '/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/project.srcs/sources_1/bd/bd_0/ip/bd_0_hls_inst_0/bd_0_hls_inst_0.dcp' for cell 'bd_0_i/hls_inst'
+Netlist sorting complete. Time (s): cpu = 00:00:00.68 ; elapsed = 00:00:00.69 . Memory (MB): peak = 2694.941 ; gain = 0.000 ; free physical = 2080 ; free virtual = 7533
+INFO: [Netlist 29-17] Analyzing 1147 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.1.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/stereolbm_accel.xdc]
+create_clock: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2702.941 ; gain = 0.000 ; free physical = 1972 ; free virtual = 7425
+Finished Parsing XDC File [/home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/verilog/stereolbm_accel.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2702.941 ; gain = 0.000 ; free physical = 1968 ; free virtual = 7421
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD, DSP_PREADD_DATA): 6 instances
+
+open_run: Time (s): cpu = 00:00:40 ; elapsed = 00:00:50 . Memory (MB): peak = 2702.941 ; gain = 258.312 ; free physical = 1968 ; free virtual = 7421
+Running report: report_utilization -file ./report/stereolbm_accel_utilization_synth.rpt
+Contents of report file './report/stereolbm_accel_utilization_synth.rpt' is as follows:
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
+| Date         : Sat Dec  5 16:21:42 2020
+| Host         : iti-VirtualBox running 64-bit Ubuntu 18.04.3 LTS
+| Command      : report_utilization -file ./report/stereolbm_accel_utilization_synth.rpt
+| Design       : bd_0_wrapper
+| Device       : xczu3egsbva484-1
+| Design State : Synthesized
+-----------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. CLB Logic
+1.1 Summary of Registers by Type
+2. BLOCKRAM
+3. ARITHMETIC
+4. I/O
+5. CLOCK
+6. ADVANCED
+7. CONFIGURATION
+8. Primitives
+9. Black Boxes
+10. Instantiated Netlists
+
+1. CLB Logic
+------------
+
++----------------------------+-------+-------+-----------+-------+
+|          Site Type         |  Used | Fixed | Available | Util% |
++----------------------------+-------+-------+-----------+-------+
+| CLB LUTs*                  | 21441 |     0 |     70560 | 30.39 |
+|   LUT as Logic             | 20559 |     0 |     70560 | 29.14 |
+|   LUT as Memory            |   882 |     0 |     28800 |  3.06 |
+|     LUT as Distributed RAM |     0 |     0 |           |       |
+|     LUT as Shift Register  |   882 |     0 |           |       |
+| CLB Registers              | 23506 |     0 |    141120 | 16.66 |
+|   Register as Flip Flop    | 23506 |     0 |    141120 | 16.66 |
+|   Register as Latch        |     0 |     0 |    141120 |  0.00 |
+| CARRY8                     |  1124 |     0 |      8820 | 12.74 |
+| F7 Muxes                   |    17 |     0 |     35280 |  0.05 |
+| F8 Muxes                   |     0 |     0 |     17640 |  0.00 |
+| F9 Muxes                   |     0 |     0 |      8820 |  0.00 |
++----------------------------+-------+-------+-----------+-------+
+* Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
+
+
+1.1 Summary of Registers by Type
+--------------------------------
+
++-------+--------------+-------------+--------------+
+| Total | Clock Enable | Synchronous | Asynchronous |
++-------+--------------+-------------+--------------+
+| 0     |            _ |           - |            - |
+| 0     |            _ |           - |          Set |
+| 0     |            _ |           - |        Reset |
+| 0     |            _ |         Set |            - |
+| 0     |            _ |       Reset |            - |
+| 0     |          Yes |           - |            - |
+| 0     |          Yes |           - |          Set |
+| 0     |          Yes |           - |        Reset |
+| 128   |          Yes |         Set |            - |
+| 23378 |          Yes |       Reset |            - |
++-------+--------------+-------------+--------------+
+
+
+2. BLOCKRAM
+-----------
+
++-------------------+------+-------+-----------+-------+
+|     Site Type     | Used | Fixed | Available | Util% |
++-------------------+------+-------+-----------+-------+
+| Block RAM Tile    |   13 |     0 |       216 |  6.02 |
+|   RAMB36/FIFO*    |    0 |     0 |       216 |  0.00 |
+|   RAMB18          |   26 |     0 |       432 |  6.02 |
+|     RAMB18E2 only |   26 |       |           |       |
++-------------------+------+-------+-----------+-------+
+* Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E2 or one FIFO18E2. However, if a FIFO18E2 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E2
+
+
+3. ARITHMETIC
+-------------
+
++----------------+------+-------+-----------+-------+
+|    Site Type   | Used | Fixed | Available | Util% |
++----------------+------+-------+-----------+-------+
+| DSPs           |    6 |     0 |       360 |  1.67 |
+|   DSP48E2 only |    6 |       |           |       |
++----------------+------+-------+-----------+-------+
+
+
+4. I/O
+------
+
++------------+------+-------+-----------+-------+
+|  Site Type | Used | Fixed | Available | Util% |
++------------+------+-------+-----------+-------+
+| Bonded IOB |    0 |     0 |        82 |  0.00 |
++------------+------+-------+-----------+-------+
+
+
+5. CLOCK
+--------
+
++----------------------+------+-------+-----------+-------+
+|       Site Type      | Used | Fixed | Available | Util% |
++----------------------+------+-------+-----------+-------+
+| GLOBAL CLOCK BUFFERs |    0 |     0 |       196 |  0.00 |
+|   BUFGCE             |    0 |     0 |        88 |  0.00 |
+|   BUFGCE_DIV         |    0 |     0 |        12 |  0.00 |
+|   BUFG_PS            |    0 |     0 |        72 |  0.00 |
+|   BUFGCTRL*          |    0 |     0 |        24 |  0.00 |
+| PLL                  |    0 |     0 |         6 |  0.00 |
+| MMCM                 |    0 |     0 |         3 |  0.00 |
++----------------------+------+-------+-----------+-------+
+* Note: Each used BUFGCTRL counts as two GLOBAL CLOCK BUFFERs. This table does not include global clocking resources, only buffer cell usage. See the Clock Utilization Report (report_clock_utilization) for detailed accounting of global clocking resource availability.
+
+
+6. ADVANCED
+-----------
+
++-----------+------+-------+-----------+-------+
+| Site Type | Used | Fixed | Available | Util% |
++-----------+------+-------+-----------+-------+
+| PS8       |    0 |     0 |         1 |  0.00 |
+| SYSMONE4  |    0 |     0 |         1 |  0.00 |
++-----------+------+-------+-----------+-------+
+
+
+7. CONFIGURATION
+----------------
+
++-------------+------+-------+-----------+-------+
+|  Site Type  | Used | Fixed | Available | Util% |
++-------------+------+-------+-----------+-------+
+| BSCANE2     |    0 |     0 |         4 |  0.00 |
+| DNA_PORTE2  |    0 |     0 |         1 |  0.00 |
+| EFUSE_USR   |    0 |     0 |         1 |  0.00 |
+| FRAME_ECCE4 |    0 |     0 |         1 |  0.00 |
+| ICAPE3      |    0 |     0 |         2 |  0.00 |
+| MASTER_JTAG |    0 |     0 |         1 |  0.00 |
+| STARTUPE3   |    0 |     0 |         1 |  0.00 |
++-------------+------+-------+-----------+-------+
+
+
+8. Primitives
+-------------
+
++----------+-------+---------------------+
+| Ref Name |  Used | Functional Category |
++----------+-------+---------------------+
+| FDRE     | 23378 |            Register |
+| LUT5     |  8968 |                 CLB |
+| LUT6     |  4763 |                 CLB |
+| LUT3     |  4569 |                 CLB |
+| LUT4     |  4531 |                 CLB |
+| LUT2     |  2307 |                 CLB |
+| CARRY8   |  1124 |                 CLB |
+| SRL16E   |   874 |                 CLB |
+| LUT1     |   565 |                 CLB |
+| FDSE     |   128 |            Register |
+| RAMB18E2 |    26 |           Block Ram |
+| MUXF7    |    17 |                 CLB |
+| SRLC32E  |     8 |                 CLB |
+| DSP48E2  |     6 |          Arithmetic |
++----------+-------+---------------------+
+
+
+9. Black Boxes
+--------------
+
++----------+------+
+| Ref Name | Used |
++----------+------+
+
+
+10. Instantiated Netlists
+-------------------------
+
++-----------------+------+
+|     Ref Name    | Used |
++-----------------+------+
+| bd_0_hls_inst_0 |    1 |
++-----------------+------+
+
+
+
+Running report: report_timing_summary -file ./report/stereolbm_accel_timing_synth.rpt
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Temperature grade: E, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 6 CPUs
+WARNING: [Timing 38-242] The property HD.CLK_SRC of clock port "ap_clk" is not set. In out-of-context mode, this prevents timing estimation for clock delay/skew
+Resolution: Set the HD.CLK_SRC property of the out-of-context port to the location of the clock buffer instance in the top-level design
+report_timing_summary: Time (s): cpu = 00:01:16 ; elapsed = 00:01:25 . Memory (MB): peak = 4142.531 ; gain = 1439.590 ; free physical = 771 ; free virtual = 6363
+Contents of report file './report/stereolbm_accel_timing_synth.rpt' is as follows:
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version      : Vivado v.2020.1.1 (lin64) Build 2960000 Wed Aug  5 22:57:21 MDT 2020
+| Date              : Sat Dec  5 16:23:07 2020
+| Host              : iti-VirtualBox running 64-bit Ubuntu 18.04.3 LTS
+| Command           : report_timing_summary -file ./report/stereolbm_accel_timing_synth.rpt
+| Design            : bd_0_wrapper
+| Device            : xczu3eg-sbva484
+| Speed File        : -1  PRODUCTION 1.28 07-24-2020
+| Temperature Grade : E
+--------------------------------------------------------------------------------------------
+
+Timing Summary Report
+
+------------------------------------------------------------------------------------------------
+| Timer Settings
+| --------------
+------------------------------------------------------------------------------------------------
+
+  Enable Multi Corner Analysis               :  Yes
+  Enable Pessimism Removal                   :  Yes
+  Pessimism Removal Resolution               :  Nearest Common Node
+  Enable Input Delay Default Clock           :  No
+  Enable Preset / Clear Arcs                 :  No
+  Disable Flight Delays                      :  No
+  Ignore I/O Paths                           :  No
+  Timing Early Launch at Borrowing Latches   :  No
+  Borrow Time for Max Delay Exceptions       :  Yes
+  Merge Timing Exceptions                    :  Yes
+
+  Corner  Analyze    Analyze    
+  Name    Max Paths  Min Paths  
+  ------  ---------  ---------  
+  Slow    Yes        Yes        
+  Fast    Yes        Yes        
+
+
+
+check_timing report
+
+Table of Contents
+-----------------
+1. checking no_clock (0)
+2. checking constant_clock (0)
+3. checking pulse_width_clock (0)
+4. checking unconstrained_internal_endpoints (0)
+5. checking no_input_delay (71)
+6. checking no_output_delay (58)
+7. checking multiple_clock (0)
+8. checking generated_clocks (0)
+9. checking loops (0)
+10. checking partial_input_delay (0)
+11. checking partial_output_delay (0)
+12. checking latch_loops (0)
+
+1. checking no_clock (0)
+------------------------
+ There are 0 register/latch pins with no clock.
+
+
+2. checking constant_clock (0)
+------------------------------
+ There are 0 register/latch pins with constant_clock.
+
+
+3. checking pulse_width_clock (0)
+---------------------------------
+ There are 0 register/latch pins which need pulse_width check
+
+
+4. checking unconstrained_internal_endpoints (0)
+------------------------------------------------
+ There are 0 pins that are not constrained for maximum delay.
+
+ There are 0 pins that are not constrained for maximum delay due to constant clock.
+
+
+5. checking no_input_delay (71)
+-------------------------------
+ There are 71 input ports with no input delay specified. (HIGH)
+
+ There are 0 input ports with no input delay but user has a false path constraint.
+
+
+6. checking no_output_delay (58)
+--------------------------------
+ There are 58 ports with no output delay specified. (HIGH)
+
+ There are 0 ports with no output delay but user has a false path constraint
+
+ There are 0 ports with no output delay but with a timing clock defined on it or propagating through it
+
+
+7. checking multiple_clock (0)
+------------------------------
+ There are 0 register/latch pins with multiple clocks.
+
+
+8. checking generated_clocks (0)
+--------------------------------
+ There are 0 generated clocks that are not connected to a clock source.
+
+
+9. checking loops (0)
+---------------------
+ There are 0 combinational loops in the design.
+
+
+10. checking partial_input_delay (0)
+------------------------------------
+ There are 0 input ports with partial input delay specified.
+
+
+11. checking partial_output_delay (0)
+-------------------------------------
+ There are 0 ports with partial output delay specified.
+
+
+12. checking latch_loops (0)
+----------------------------
+ There are 0 combinational latch loops in the design through latch input
+
+
+
+------------------------------------------------------------------------------------------------
+| Design Timing Summary
+| ---------------------
+------------------------------------------------------------------------------------------------
+
+    WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+    -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+      3.187        0.000                      0                56125        0.066        0.000                      0                56125        4.427        0.000                       0                 24441  
+
+
+All user specified timing constraints are met.
+
+
+------------------------------------------------------------------------------------------------
+| Clock Summary
+| -------------
+------------------------------------------------------------------------------------------------
+
+Clock   Waveform(ns)       Period(ns)      Frequency(MHz)
+-----   ------------       ----------      --------------
+ap_clk  {0.000 5.000}      10.000          100.000         
+
+
+------------------------------------------------------------------------------------------------
+| Intra Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+Clock             WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints     WPWS(ns)     TPWS(ns)  TPWS Failing Endpoints  TPWS Total Endpoints  
+-----             -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------     --------     --------  ----------------------  --------------------  
+ap_clk              3.187        0.000                      0                56125        0.066        0.000                      0                56125        4.427        0.000                       0                 24441  
+
+
+------------------------------------------------------------------------------------------------
+| Inter Clock Table
+| -----------------
+------------------------------------------------------------------------------------------------
+
+From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Other Path Groups Table
+| -----------------------
+------------------------------------------------------------------------------------------------
+
+Path Group    From Clock    To Clock          WNS(ns)      TNS(ns)  TNS Failing Endpoints  TNS Total Endpoints      WHS(ns)      THS(ns)  THS Failing Endpoints  THS Total Endpoints  
+----------    ----------    --------          -------      -------  ---------------------  -------------------      -------      -------  ---------------------  -------------------  
+
+
+------------------------------------------------------------------------------------------------
+| Timing Details
+| --------------
+------------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------------
+From Clock:  ap_clk
+  To Clock:  ap_clk
+
+Setup :            0  Failing Endpoints,  Worst Slack        3.187ns,  Total Violation        0.000ns
+Hold  :            0  Failing Endpoints,  Worst Slack        0.066ns,  Total Violation        0.000ns
+PW    :            0  Failing Endpoints,  Worst Slack        4.427ns,  Total Violation        0.000ns
+---------------------------------------------------------------------------------------------------
+
+
+Max Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             3.187ns  (required time - arrival time)
+  Source:                 bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/v2_56_reg_46203_reg[1]/C
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[22]/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Setup (Max at Slow Process Corner)
+  Requirement:            10.000ns  (ap_clk rise@10.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        6.805ns  (logic 4.625ns (67.965%)  route 2.180ns (32.035%))
+  Logic Levels:           23  (CARRY8=9 DSP_A_B_DATA=1 DSP_ALU=2 DSP_M_DATA=1 DSP_MULTIPLIER=1 DSP_OUTPUT=2 DSP_PREADD_DATA=1 LUT1=2 LUT2=1 LUT3=2 LUT4=1)
+  Clock Uncertainty:      0.035ns  ((TSJ^2 + TIJ^2)^1/2 + DJ) / 2 + PE
+    Total System Jitter     (TSJ):    0.071ns
+    Total Input Jitter      (TIJ):    0.000ns
+    Discrete Jitter          (DJ):    0.000ns
+    Phase Error              (PE):    0.000ns
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=24445, unset)        0.000     0.000    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/v2_56_reg_46203_reg[1]/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_FDRE_C_Q)         0.093     0.093 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/v2_56_reg_46203_reg[1]/Q
+                         net (fo=6, unplaced)         0.130     0.223    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/v2_56_reg_46203[1]
+                         LUT4 (Prop_LUT4_I0_O)        0.171     0.394 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_53/O
+                         net (fo=1, unplaced)         0.287     0.681    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_53_n_1
+                         CARRY8 (Prop_CARRY8_DI[0]_CO[7])
+                                                      0.177     0.858 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_35/CO[7]
+                         net (fo=1, unplaced)         0.007     0.865    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_35_n_1
+                         CARRY8 (Prop_CARRY8_CI_CO[4])
+                                                      0.116     0.981 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_34/CO[4]
+                         net (fo=116, unplaced)       0.298     1.279    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/p_1_in
+                         LUT3 (Prop_LUT3_I1_O)        0.085     1.364 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_11/O
+                         net (fo=1, unplaced)         0.287     1.651    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_11_n_1
+                         CARRY8 (Prop_CARRY8_DI[0]_CO[7])
+                                                      0.177     1.828 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_1/CO[7]
+                         net (fo=1, unplaced)         0.007     1.835    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__1_i_1_n_1
+                         CARRY8 (Prop_CARRY8_CI_CO[7])
+                                                      0.030     1.865 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2_i_3/CO[7]
+                         net (fo=1, unplaced)         0.007     1.872    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2_i_3_n_1
+                         CARRY8 (Prop_CARRY8_CI_CO[5])
+                                                      0.097     1.969 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2_i_2/CO[5]
+                         net (fo=25, unplaced)        0.163     2.132    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2_i_2_n_3
+                         LUT1 (Prop_LUT1_I0_O)        0.040     2.172 f  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2_i_1/O
+                         net (fo=3, unplaced)         0.145     2.317    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/B[13]
+                         DSP_A_B_DATA (Prop_DSP_A_B_DATA_B[13]_B2_DATA[13])
+                                                      0.195     2.512 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_A_B_DATA_INST/B2_DATA[13]
+                         net (fo=1, unplaced)         0.000     2.512    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_A_B_DATA.B2_DATA<13>
+                         DSP_PREADD_DATA (Prop_DSP_PREADD_DATA_B2_DATA[13]_B2B1[13])
+                                                      0.092     2.604 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_PREADD_DATA_INST/B2B1[13]
+                         net (fo=1, unplaced)         0.000     2.604    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_PREADD_DATA.B2B1<13>
+                         DSP_MULTIPLIER (Prop_DSP_MULTIPLIER_B2B1[13]_U[42])
+                                                      0.737     3.341 f  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_MULTIPLIER_INST/U[42]
+                         net (fo=1, unplaced)         0.000     3.341    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_MULTIPLIER.U<42>
+                         DSP_M_DATA (Prop_DSP_M_DATA_U[42]_U_DATA[42])
+                                                      0.059     3.400 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_M_DATA_INST/U_DATA[42]
+                         net (fo=1, unplaced)         0.000     3.400    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_M_DATA.U_DATA<42>
+                         DSP_ALU (Prop_DSP_ALU_U_DATA[42]_ALU_OUT[47])
+                                                      0.699     4.099 f  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_ALU_INST/ALU_OUT[47]
+                         net (fo=1, unplaced)         0.000     4.099    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_ALU.ALU_OUT<47>
+                         DSP_OUTPUT (Prop_DSP_OUTPUT_ALU_OUT[47]_PCOUT[47])
+                                                      0.159     4.258 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2/DSP_OUTPUT_INST/PCOUT[47]
+                         net (fo=1, unplaced)         0.016     4.274    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__0/PCIN[47]
+                         DSP_ALU (Prop_DSP_ALU_PCIN[47]_ALU_OUT[7])
+                                                      0.698     4.972 f  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__0/DSP_ALU_INST/ALU_OUT[7]
+                         net (fo=1, unplaced)         0.000     4.972    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__0/DSP_ALU.ALU_OUT<7>
+                         DSP_OUTPUT (Prop_DSP_OUTPUT_ALU_OUT[7]_P[7])
+                                                      0.141     5.113 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__0/DSP_OUTPUT_INST/P[7]
+                         net (fo=1, unplaced)         0.294     5.407    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__0_n_99
+                         LUT2 (Prop_LUT2_I1_O)        0.039     5.446 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420[9]_i_10/O
+                         net (fo=1, unplaced)         0.025     5.471    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420[9]_i_10_n_1
+                         CARRY8 (Prop_CARRY8_S[1]_CO[7])
+                                                      0.245     5.716 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[9]_i_2/CO[7]
+                         net (fo=1, unplaced)         0.007     5.723    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[9]_i_2_n_1
+                         CARRY8 (Prop_CARRY8_CI_O[1])
+                                                      0.097     5.820 f  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[17]_i_2/O[1]
+                         net (fo=2, unplaced)         0.208     6.028    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/mul_ln515_fu_35649_p2__3[49]
+                         LUT1 (Prop_LUT1_I0_O)        0.039     6.067 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420[17]_i_18/O
+                         net (fo=1, unplaced)         0.025     6.092    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420[17]_i_18_n_1
+                         CARRY8 (Prop_CARRY8_S[1]_CO[7])
+                                                      0.245     6.337 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[17]_i_3/CO[7]
+                         net (fo=1, unplaced)         0.007     6.344    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[17]_i_3_n_1
+                         CARRY8 (Prop_CARRY8_CI_O[4])
+                                                      0.109     6.453 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[23]_i_3/O[4]
+                         net (fo=1, unplaced)         0.209     6.662    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/sub_ln515_1_fu_35655_p2[60]
+                         LUT3 (Prop_LUT3_I2_O)        0.085     6.747 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420[22]_i_1/O
+                         net (fo=1, unplaced)         0.058     6.805    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_fu_35689_p3[22]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[22]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)    10.000    10.000 r  
+                                                      0.000    10.000 r  ap_clk (IN)
+                         net (fo=24445, unset)        0.000    10.000    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[22]/C
+                         clock pessimism              0.000    10.000    
+                         clock uncertainty           -0.035     9.965    
+                         FDRE (Setup_FDRE_C_D)        0.027     9.992    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/select_ln515_reg_46420_reg[22]
+  -------------------------------------------------------------------
+                         required time                          9.992    
+                         arrival time                          -6.805    
+  -------------------------------------------------------------------
+                         slack                                  3.187    
+
+
+
+
+
+Min Delay Paths
+--------------------------------------------------------------------------------------
+Slack (MET) :             0.066ns  (arrival time - required time)
+  Source:                 bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/height_reg_121_reg[10]/C
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Destination:            bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/add_ln353_reg_799_reg[10]/D
+                            (rising edge-triggered cell FDRE clocked by ap_clk  {rise@0.000ns fall@5.000ns period=10.000ns})
+  Path Group:             ap_clk
+  Path Type:              Hold (Min at Fast Process Corner)
+  Requirement:            0.000ns  (ap_clk rise@0.000ns - ap_clk rise@0.000ns)
+  Data Path Delay:        0.112ns  (logic 0.056ns (50.000%)  route 0.056ns (50.000%))
+  Logic Levels:           1  (CARRY8=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=24445, unset)        0.000     0.000    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/height_reg_121_reg[10]/C
+  -------------------------------------------------------------------    -------------------
+                         FDRE (Prop_FDRE_C_Q)         0.038     0.038 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/height_reg_121_reg[10]/Q
+                         net (fo=3, unplaced)         0.049     0.087    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/Q[10]
+                         CARRY8 (Prop_CARRY8_S[1]_O[1])
+                                                      0.018     0.105 r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/add_ln353_fu_486_p2_carry__0/O[1]
+                         net (fo=1, unplaced)         0.007     0.112    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/add_ln353_fu_486_p2[10]
+                         FDRE                                         r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/add_ln353_reg_799_reg[10]/D
+  -------------------------------------------------------------------    -------------------
+
+                         (clock ap_clk rise edge)     0.000     0.000 r  
+                                                      0.000     0.000 r  ap_clk (IN)
+                         net (fo=24445, unset)        0.000     0.000    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/ap_clk
+                         FDRE                                         r  bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/add_ln353_reg_799_reg[10]/C
+                         clock pessimism              0.000     0.000    
+                         FDRE (Hold_FDRE_C_D)         0.046     0.046    bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/Sobel178_U0/grp_xFSobelFilter3x3_fu_94/add_ln353_reg_799_reg[10]
+  -------------------------------------------------------------------
+                         required time                         -0.046    
+                         arrival time                           0.112    
+  -------------------------------------------------------------------
+                         slack                                  0.066    
+
+
+
+
+
+Pulse Width Checks
+--------------------------------------------------------------------------------------
+Clock Name:         ap_clk
+Waveform(ns):       { 0.000 5.000 }
+Period(ns):         10.000
+Sources:            { ap_clk }
+
+Check Type        Corner  Lib Pin             Reference Pin  Required(ns)  Actual(ns)  Slack(ns)  Location  Pin
+Min Period        n/a     RAMB18E2/CLKARDCLK  n/a            1.739         10.000      8.261                bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/left_line_buf_6_V_U/xFSADBlockMatching8j_ram_U/ram_reg_bram_0/CLKARDCLK
+Low Pulse Width   Slow    SRL16E/CLK          n/a            0.573         5.000       4.427                bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/sext_ln441_49_reg_46352_pp0_iter8_reg_reg[0]_srl5/CLK
+High Pulse Width  Slow    SRL16E/CLK          n/a            0.573         5.000       4.427                bd_0_i/hls_inst/inst/StereoBM_U0/grp_xFFindStereoCorrespo_3_fu_130/xFSADBlockMatching_U0/sext_ln441_49_reg_46352_pp0_iter8_reg_reg[0]_srl5/CLK
+
+
+
+
+HLS EXTRACTION: calculating BRAM count: (26 bram18) + 2 * (0 bram36)
+HLS EXTRACTION: synth area_totals:  0 70560 141120 360 432 0 0
+HLS EXTRACTION: synth area_current: 0 21441 23506 6 26 0 882 0 0 0
+HLS EXTRACTION: generated /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/report/verilog/stereolbm_accel_export.xml
+
+
+Implementation tool: Xilinx Vivado v.2020.1.1
+Project:             stereolbm.prj
+Solution:            solution1
+Device target:       xczu3eg-sbva484-1-e
+Report date:         Sat Dec 05 16:23:07 EST 2020
+
+#=== Post-Synthesis Resource usage ===
+SLICE:            0
+LUT:          21441
+FF:           23506
+DSP:              6
+BRAM:            26
+SRL:            882
+#=== Final timing ===
+CP required:    10.000
+CP achieved post-synthesis:    6.813
+Timing met
+
+HLS EXTRACTION: generated /home/iti/Documents/Vitis_Libraries/vision/L1/examplest/stereolbmstrm/stereolbm.prj/solution1/impl/report/verilog/stereolbm_accel_export.rpt
+INFO: [Common 17-206] Exiting Vivado at Sat Dec  5 16:23:07 2020...
